@@ -25,7 +25,7 @@ public class AlienController {
 	
 	@GetMapping("/alien/{aname}")
 	public Alien getAlien(@PathVariable String aname) {
-		System.out.println("method called");
+//		System.out.println("method called");
 		return repo.findByAname(aname);
 	}
 	
