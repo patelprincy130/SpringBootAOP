@@ -26,6 +26,7 @@ public class AlienController {
 	@GetMapping("/alien/{aname}")
 	public Alien getAlien(@PathVariable String aname) {
 		System.out.println("method called");
+//		int i=7/0;  even with this exception After log will be printed as by default it is finally
 		return repo.findByAname(aname);
 	}
 	
