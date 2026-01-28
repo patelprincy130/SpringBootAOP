@@ -181,3 +181,342 @@ java.lang.ArithmeticException: / by zero
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
+2026-01-27T19:13:28.694-05:00  INFO 6592 --- [MongodbSpringBoot-1] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-27T19:13:28.700-05:00  INFO 6592 --- [MongodbSpringBoot-1] [RMI TCP Connection(10)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27T19:13:28.710-05:00  INFO 6592 --- [MongodbSpringBoot-1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-27T19:13:28.715-05:00  INFO 6592 --- [MongodbSpringBoot-1] [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:13:28.718-05:00  INFO 6592 --- [MongodbSpringBoot-1] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T19:13:28.727-05:00  INFO 6592 --- [MongodbSpringBoot-1] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-27T19:13:31.420-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Starting MongodbSpringBoot1Application using Java 21.0.8 with PID 18980 (D:\STSworkspace\AOP\target\classes started by princy in D:\STSworkspace\AOP)
+2026-01-27T19:13:31.424-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : No active profile set, falling back to 1 default profile: "default"
+2026-01-27T19:13:32.242-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T19:13:32.306-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-01-27T19:13:32.914-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-27T19:13:32.934-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T19:13:32.934-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27T19:13:33.018-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1515 ms
+2026-01-27T19:13:33.216-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T19:13:33.711-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@222acad
+2026-01-27T19:13:33.714-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T19:13:33.761-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27T19:13:33.815-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-01-27T19:13:34.447-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T19:13:34.587-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbootrest]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: springbootrest/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27T19:13:35.560-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T19:13:35.571-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:13:35.719-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T19:13:36.148-05:00  WARN 18980 --- [MongodbSpringBoot-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T19:13:36.650-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-27T19:13:36.659-05:00  INFO 18980 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Started MongodbSpringBoot1Application in 5.828 seconds (process running for 6.938)
+2026-01-27T19:13:41.382-05:00  INFO 18980 --- [MongodbSpringBoot-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T19:13:41.382-05:00  INFO 18980 --- [MongodbSpringBoot-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T19:13:41.385-05:00  INFO 18980 --- [MongodbSpringBoot-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-27T19:13:41.462-05:00  INFO 18980 --- [MongodbSpringBoot-1] [http-nio-8080-exec-2] com.product.LogginAspect                 : BEFORE: AOP getAlien with name method called
+2026-01-27T19:13:42.112-05:00  INFO 18980 --- [MongodbSpringBoot-1] [http-nio-8080-exec-2] com.product.LogginAspect                 : AFTER: AOP getAlien with name method called
+2026-01-27T19:14:10.208-05:00  INFO 18980 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-27T19:14:10.212-05:00  INFO 18980 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27T19:14:10.229-05:00  INFO 18980 --- [MongodbSpringBoot-1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-27T19:14:10.235-05:00  INFO 18980 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:14:10.238-05:00  INFO 18980 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T19:14:10.250-05:00  INFO 18980 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-27T19:14:13.028-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Starting MongodbSpringBoot1Application using Java 21.0.8 with PID 13200 (D:\STSworkspace\AOP\target\classes started by princy in D:\STSworkspace\AOP)
+2026-01-27T19:14:13.031-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : No active profile set, falling back to 1 default profile: "default"
+2026-01-27T19:14:13.885-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T19:14:13.949-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-01-27T19:14:14.629-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-27T19:14:14.643-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T19:14:14.644-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27T19:14:14.709-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1604 ms
+2026-01-27T19:14:14.882-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T19:14:15.348-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2abc55c4
+2026-01-27T19:14:15.350-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T19:14:15.395-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27T19:14:15.464-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-01-27T19:14:16.069-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T19:14:16.191-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbootrest]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: springbootrest/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27T19:14:17.052-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T19:14:17.068-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:14:17.194-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T19:14:17.507-05:00  WARN 13200 --- [MongodbSpringBoot-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T19:14:17.933-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-27T19:14:17.941-05:00  INFO 13200 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Started MongodbSpringBoot1Application in 5.57 seconds (process running for 6.532)
+2026-01-27T19:14:22.043-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T19:14:22.044-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T19:14:22.045-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-27T19:14:22.112-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] com.product.LogginAspect                 : BEFORE: AOP getAlien with name method called
+2026-01-27T19:14:22.699-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] com.product.LogginAspect                 : AFTER RETURNING: AOP getAlien with name method called
+2026-01-27T19:14:22.700-05:00  INFO 13200 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] com.product.LogginAspect                 : AFTER: AOP getAlien with name method called
+2026-01-27T19:15:46.611-05:00  INFO 13200 --- [MongodbSpringBoot-1] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-27T19:15:46.615-05:00  INFO 13200 --- [MongodbSpringBoot-1] [RMI TCP Connection(6)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27T19:15:46.623-05:00  INFO 13200 --- [MongodbSpringBoot-1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-27T19:15:46.628-05:00  INFO 13200 --- [MongodbSpringBoot-1] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:15:46.631-05:00  INFO 13200 --- [MongodbSpringBoot-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T19:15:46.642-05:00  INFO 13200 --- [MongodbSpringBoot-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-27T19:15:49.489-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Starting MongodbSpringBoot1Application using Java 21.0.8 with PID 15008 (D:\STSworkspace\AOP\target\classes started by princy in D:\STSworkspace\AOP)
+2026-01-27T19:15:49.494-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : No active profile set, falling back to 1 default profile: "default"
+2026-01-27T19:15:50.335-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T19:15:50.392-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-01-27T19:15:50.970-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-27T19:15:51.002-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T19:15:51.002-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27T19:15:51.066-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1497 ms
+2026-01-27T19:15:51.239-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T19:15:51.752-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39f0c343
+2026-01-27T19:15:51.756-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T19:15:51.804-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27T19:15:51.892-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-01-27T19:15:52.586-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T19:15:52.712-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbootrest]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: springbootrest/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27T19:15:53.619-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T19:15:53.632-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:15:53.773-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T19:15:54.105-05:00  WARN 15008 --- [MongodbSpringBoot-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T19:15:54.528-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-27T19:15:54.536-05:00  INFO 15008 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Started MongodbSpringBoot1Application in 5.608 seconds (process running for 6.667)
+2026-01-27T19:16:00.542-05:00  INFO 15008 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T19:16:00.543-05:00  INFO 15008 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T19:16:00.546-05:00  INFO 15008 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-01-27T19:16:00.617-05:00  INFO 15008 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] com.product.LogginAspect                 : BEFORE: AOP getAlien with name method called
+2026-01-27T19:16:00.621-05:00 ERROR 15008 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.product.controllers.AlienController.getAlien(AlienController.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:56) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+	at com.product.controllers.AlienController$$SpringCGLIB$$0.getAlien(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-27T19:17:07.622-05:00  INFO 15008 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-27T19:17:07.627-05:00  INFO 15008 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27T19:17:07.639-05:00  INFO 15008 --- [MongodbSpringBoot-1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-27T19:17:07.646-05:00  INFO 15008 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:17:07.649-05:00  INFO 15008 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T19:17:07.661-05:00  INFO 15008 --- [MongodbSpringBoot-1] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-27T19:17:10.348-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Starting MongodbSpringBoot1Application using Java 21.0.8 with PID 5820 (D:\STSworkspace\AOP\target\classes started by princy in D:\STSworkspace\AOP)
+2026-01-27T19:17:10.352-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : No active profile set, falling back to 1 default profile: "default"
+2026-01-27T19:17:11.077-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T19:17:11.146-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-01-27T19:17:11.820-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-27T19:17:11.834-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T19:17:11.834-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27T19:17:11.910-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1485 ms
+2026-01-27T19:17:12.083-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T19:17:12.553-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25ce435
+2026-01-27T19:17:12.557-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T19:17:12.606-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27T19:17:12.658-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-01-27T19:17:13.254-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T19:17:13.389-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbootrest]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: springbootrest/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27T19:17:14.306-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T19:17:14.323-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:17:14.479-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T19:17:14.778-05:00  WARN 5820 --- [MongodbSpringBoot-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T19:17:15.199-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-27T19:17:15.207-05:00  INFO 5820 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Started MongodbSpringBoot1Application in 5.479 seconds (process running for 6.465)
+2026-01-27T19:17:22.243-05:00  INFO 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T19:17:22.243-05:00  INFO 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T19:17:22.244-05:00  INFO 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-27T19:17:22.308-05:00  INFO 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] com.product.LogginAspect                 : BEFORE: AOP getAlien with name method called
+2026-01-27T19:17:22.309-05:00  INFO 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] com.product.LogginAspect                 : AFTER THROWING: AOP getAlien with name method called with EXCEPTION
+2026-01-27T19:17:22.317-05:00 ERROR 5820 --- [MongodbSpringBoot-1] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.product.controllers.AlienController.getAlien(AlienController.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:63) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:56) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+	at com.product.controllers.AlienController$$SpringCGLIB$$0.getAlien(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-27T19:20:00.157-05:00  INFO 5820 --- [MongodbSpringBoot-1] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-27T19:20:00.164-05:00  INFO 5820 --- [MongodbSpringBoot-1] [RMI TCP Connection(7)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-27T19:20:00.173-05:00  INFO 5820 --- [MongodbSpringBoot-1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-27T19:20:00.179-05:00  INFO 5820 --- [MongodbSpringBoot-1] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:20:00.184-05:00  INFO 5820 --- [MongodbSpringBoot-1] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T19:20:00.199-05:00  INFO 5820 --- [MongodbSpringBoot-1] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-27T19:20:03.005-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Starting MongodbSpringBoot1Application using Java 21.0.8 with PID 23404 (D:\STSworkspace\AOP\target\classes started by princy in D:\STSworkspace\AOP)
+2026-01-27T19:20:03.009-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : No active profile set, falling back to 1 default profile: "default"
+2026-01-27T19:20:03.882-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T19:20:03.975-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2026-01-27T19:20:04.685-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-27T19:20:04.705-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T19:20:04.706-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-27T19:20:04.797-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1714 ms
+2026-01-27T19:20:05.010-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T19:20:05.534-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ec3a8bd
+2026-01-27T19:20:05.539-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T19:20:05.588-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-27T19:20:05.662-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-01-27T19:20:06.347-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T19:20:06.480-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbootrest]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: springbootrest/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-27T19:20:07.432-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T19:20:07.446-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T19:20:07.584-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T19:20:08.004-05:00  WARN 23404 --- [MongodbSpringBoot-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T19:20:08.514-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-27T19:20:08.523-05:00  INFO 23404 --- [MongodbSpringBoot-1] [main] c.product.MongodbSpringBoot1Application  : Started MongodbSpringBoot1Application in 6.13 seconds (process running for 7.121)
+2026-01-27T19:20:13.285-05:00  INFO 23404 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T19:20:13.286-05:00  INFO 23404 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T19:20:13.289-05:00  INFO 23404 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-27T19:20:13.356-05:00  INFO 23404 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] com.product.LogginAspect                 : BEFORE: AOP getAlien with name method called
+2026-01-27T19:20:13.907-05:00  INFO 23404 --- [MongodbSpringBoot-1] [http-nio-8080-exec-3] com.product.LogginAspect                 : AFTER RETURNING: AOP getAlien with name method called without exception
